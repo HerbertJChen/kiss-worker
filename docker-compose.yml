@@ -6,7 +6,7 @@ services:
     # build: .
     environment:
       PORT: 8080
-      APP_KEY: 123456
+      APP_KEY: password
       APP_DATAPATH: data
     ports:
       - 8080:8080
